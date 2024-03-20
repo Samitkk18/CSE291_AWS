@@ -1,10 +1,15 @@
-# CSE291_AWS
+# CSE291_AWS_Analysis
 
 ## Image Object Detection
 
 ### Relevant Files
 
-- ```./image_object_detection/code/inderence.py```: 
+- ```./image_object_detection/code/inderence.py```: main inference script.
+  - Model_fn - load the model
+  - Input_fn - take input and process it for the model
+  - Predict_fn - pass processed inputs through model to get prediction
+  - Output_fn - process the predictions and return the results
+
 - ```./image_object_detection/code/requirements.txt```: all dependencies needed for the project
 
 ### Provisioned
